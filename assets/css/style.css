@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Libre+Bodoni&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1 {
+    font-family: Aboreto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 500%;
+    color: slategray;
+    
+    
+}
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#undertext {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: darkkhaki;
+
+    
+}
+#video-wrap h2 {
+    position: relative;
+}
+#video-wrap h1{
+    position: relative;
+    
+}
+
+body {
+    
+    font-family: 'Libre Bodoni';
+    
+}
