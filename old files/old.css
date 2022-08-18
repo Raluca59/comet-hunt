@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Libre+Bodoni&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1 {
+    font-family: Aboreto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 500%;
+    color: slategray;
+    
+    
+}
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(53, 105, 105),
+    0 0 82px rgb(54, 87, 76),
+    0 0 92px rgb(30, 140, 173),
+    0 0 102px rgb(46, 202, 207),
+    0 0 151px rgb(183, 240, 26);
+}
+
+#undertext {
+    position: absolute;
+    top: 57%;
+    left: 36%;
+    color: rgb(14, 14, 13);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(81, 104, 81),
+    0 0 21px #fff,
+    0 0 42px rgb(67, 61, 82),
+    0 0 82px rgb(71, 68, 102),
+    0 0 92px rgb(65, 61, 104),
+    0 0 102px rgb(79, 65, 105),
+    0 0 151px rgb(46, 98, 196);
+    
+}
+#video-wrap h2 {
+    position: relative;
+}
+#video-wrap h1{
+    position: relative;
+    
+}
+
+body {
+    
+    font-family: 'Libre Bodoni';
+    background-color: rgb(51, 48, 53);
+    
+}
+

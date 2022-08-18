@@ -6,40 +6,100 @@
     border: none;
 }
 
-h1 {
-    font-family: Aboreto;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 500%;
-    color: slategray;
-    
+body {
+    font-family: 'Libre Bodoni', sans-serif;
+     background-color: rgb(42, 45, 59);  
     
 }
+
+/* logo and header*/
+
+h1, h2{
+    font-family: Aboreto, sans-serif;
+    
+}
+
 #logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+ float: left;
+ font-size: 320%;
+ color: rgb(5, 5, 5);
+ text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(60, 196, 196),
+    0 0 21px rgb(28, 221, 255),
+    0 0 42px rgb(68, 185, 156),
+    0 0 82px rgb(157, 223, 208),
+    0 0 92px rgb(65, 61, 104),
+    0 0 102px rgb(79, 65, 105),
+    0 0 151px rgb(46, 98, 196);
+ 
 }
+
+/*navigation links*/
+#menu {
+font-size: 140%;
+
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(194, 169, 59),
+    0 0 21px rgb(189, 176, 66),
+    0 0 42px rgb(163, 139, 33),
+    0 0 82px rgb(204, 163, 27),
+    0 0 92px rgb(252, 252, 252),
+    0 0 205px rgb(238, 235, 240),
+    0 0 151px rgb(190, 141, 68);
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+#menu a:hover {
+    border-style: dotted none;
+    color: aliceblue;
+    
+    
+}
+
+/* background-image*/
+#comet-image {
+    height: 700px;
+    width: 100%;
+    background: url(../images/593191.jpg) no-repeat center center;
+}
+#comet-zoom {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #undertext {
     position: absolute;
-    top: 55%;
-    left: 40%;
-    color: darkkhaki;
+    
+    top: 15%;
+    left: 30%;
+    color: rgb(14, 14, 13);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(81, 104, 81),
+    0 0 21px #fff,
+    0 0 42px rgb(67, 61, 82),
+    0 0 82px rgb(71, 68, 102),
+    0 0 92px rgb(65, 61, 104),
+    0 0 102px rgb(79, 65, 105),
+    0 0 151px rgb(46, 98, 196);
+    
+}
 
-    
-}
-#video-wrap h2 {
-    position: relative;
-}
-#video-wrap h1{
-    position: relative;
-    
-}
-
-body {
-    
-    font-family: 'Libre Bodoni';
-    
-}
+ 
