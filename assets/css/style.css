@@ -112,11 +112,17 @@ font-size: 140%;
     font-family: Aboreto;
     padding-bottom: 300px;
     padding-top: 30px;
+    
 }
 
 #club-image {
    border-radius: 50%;
     
     
+}
+
+.explore-round {
+  color: rgb(52, 12, 88);
+  
 }
 
