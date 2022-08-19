@@ -8,13 +8,14 @@
 
 body {
     font-family: 'Libre Bodoni', sans-serif;
-     background-color: rgb(42, 45, 59);  
+     background-color: rgb(35, 32, 48);  
     
 }
 
+
 /* logo and header*/
 
-h1, h2{
+h1 {
     font-family: Aboreto, sans-serif;
     
 }
@@ -22,6 +23,7 @@ h1, h2{
 #logo {
  float: left;
  font-size: 320%;
+ margin-left: 30px;
  color: rgb(5, 5, 5);
  text-shadow:
     0 0 7px #fff,
@@ -86,9 +88,9 @@ font-size: 140%;
 
 #undertext {
     position: absolute;
-    
-    top: 15%;
-    left: 30%;
+    font-size: 120%;
+    top: 8%;
+    left: 25px;
     color: rgb(14, 14, 13);
     text-shadow:
     0 0 7px #fff,
@@ -102,4 +104,19 @@ font-size: 140%;
     
 }
 
- 
+/*section club*/
+#cosmos-club {
+    background-color: rgb(251, 255, 255);
+    text-align: center;
+    font-size: 130%;
+    font-family: Aboreto;
+    padding-bottom: 300px;
+    padding-top: 30px;
+}
+
+#club-image {
+   border-radius: 50%;
+    
+    
+}
+
