@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Libre Bodoni', sans-serif;
-     background-color: rgb(35, 32, 48);  
+     background-color: rgb(2, 2, 2);  
     
 }
 
@@ -93,27 +93,26 @@ font-size: 140%;
     left: 25px;
     color: rgb(14, 14, 13);
     text-shadow:
-    0 0 7px #fff,
-    0 0 10px rgb(81, 104, 81),
+    0 0 7px rgb(17, 17, 17),
+    0 0 10px rgb(139, 112, 182),
     0 0 21px #fff,
-    0 0 42px rgb(67, 61, 82),
+    0 0 42px rgb(253, 253, 253),
     0 0 82px rgb(71, 68, 102),
     0 0 92px rgb(65, 61, 104),
-    0 0 102px rgb(79, 65, 105),
-    0 0 151px rgb(46, 98, 196);
+    0 0 102px rgb(233, 229, 240),
+    0 0 151px rgb(99, 87, 133);
     
 }
 
 /*section club*/
-#cosmos-club {
-    background-color: rgb(251, 255, 255);
+ #cosmos-club {
+    background-color: rgb(254, 254, 255);
     text-align: center;
     font-size: 130%;
     font-family: Aboreto;
     padding-bottom: 300px;
     padding-top: 30px;
-    
-}
+} 
 
 #club-image {
    border-radius: 50%;
@@ -126,3 +125,59 @@ font-size: 140%;
   
 }
 
+/* p travel and facts*/
+#club-left {
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+    margin-left: 150px;
+    
+    
+}
+
+#club-right {
+    /* width: 33%;
+    float: right; */
+    padding-top: 30px;
+    width: 20%;
+    float: right;
+    margin-right: 150px;
+}
+   #club-center {
+    width: 33%;
+    margin: 0 auto;
+} 
+
+.club-left-h  {
+    margin-bottom: 50px;
+    font-size: 100%;
+    
+}
+
+.paragraph-left {
+    font-family: 'Libre Bodoni', sans-serif;
+    margin-top: 10px;
+}
+
+.club-left-h h2 {
+    font-family: 'Libre Bodoni', sans-serif;
+    font-size: 120%;
+    text-decoration: underline;
+}
+
+.club-right-h  {
+    margin-bottom: 50px;
+    font-size: 100%;
+    
+}
+
+.paragraph-right {
+    font-family: 'Libre Bodoni', sans-serif;
+    margin-top: 10px;
+}
+
+.club-right-h h2 {
+    font-family: 'Libre Bodoni', sans-serif;
+    font-size: 120%;
+    text-decoration: underline;
+}
