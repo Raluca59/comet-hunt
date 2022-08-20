@@ -171,7 +171,6 @@ font-size: 140%;
 .club-right-h  {
     margin-bottom: 50px;
     font-size: 100%;
-    
 }
 
 .paragraph-right {
@@ -234,4 +233,25 @@ footer {
 #images {
     clear: both;
     line-height: 0;
+    padding-top: 60px;
+    column-count: 4;
+    padding-left: 80px;
+
+}
+#images img {
+     width: 80%;
+     height: 80%;
+     border: 1px solid white;
+}
+
+.description {
+    color: #fff;
+    padding: 10px;
+    font-size: 120%;
+    
+}
+#images img:hover {
+    border: 3px dotted rgb(43, 220, 226);
+    box-sizing: border-box;
+    
 }
