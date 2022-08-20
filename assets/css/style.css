@@ -255,3 +255,37 @@ footer {
     box-sizing: border-box;
     
 }
+
+#signup-image {
+    background: url(../images/signup.jpg);
+    height: 1200px;
+    background-size: cover;
+  
+    
+
+}
+
+#form-block {
+    background-color: rgb(28, 163, 187);
+    
+
+}
+
+#signup-form {
+    background-color: rgb(24, 174, 211);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    opacity: 0.5;
+    left: 300px;
+}
+.input-box {
+    height: 25px;
+    width: 350px;
+    padding-left: 25px;
+    margin-left: 20px;
+
+    
+    
+}
