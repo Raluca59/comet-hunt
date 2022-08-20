@@ -229,3 +229,9 @@ footer {
     margin-top: 30px;
     
 }
+
+/* gallery */
+#images {
+    clear: both;
+    line-height: 0;
+}
