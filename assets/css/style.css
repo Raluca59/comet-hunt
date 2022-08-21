@@ -265,27 +265,74 @@ footer {
 
 }
 
-#form-block {
-    background-color: rgb(28, 163, 187);
-    
-
-}
 
 #signup-form {
-    background-color: rgb(24, 174, 211);
+    background-color: rgb(44, 51, 53);
     height: 400px;
     width: 400px;
     position: absolute;
     top: 250px;
-    opacity: 0.5;
+    opacity: 0.7;
     left: 300px;
+    padding: 30px;
+    border-radius: 7px;
+    
 }
 .input-box {
     height: 25px;
-    width: 350px;
-    padding-left: 25px;
-    margin-left: 20px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    font-family: 'Libre Bodoni', sans-serif;
+}
 
-    
-    
+#form-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 170%;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(60, 196, 196),
+    0 0 21px rgb(28, 221, 255),
+    0 0 42px rgb(68, 185, 156),
+    0 0 82px rgb(157, 223, 208),
+    0 0 92px rgb(65, 61, 104),
+    0 0 102px rgb(79, 65, 105),
+    0 0 151px rgb(46, 98, 196);
+}
+.label{
+    font-size: 120%;
+    color: rgb(252, 252, 252);
+}
+
+
+#bubble {
+    background-color: rgb(44, 51, 53);
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    opacity: 0.7;
+    right: 600px;
+    padding: 30px;
+    float: right;
+    border-radius: 50%;
+}
+#start-package {
+    text-align: center;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(60, 196, 196),
+    0 0 21px rgb(28, 221, 255),
+    0 0 42px rgb(68, 185, 156),
+    0 0 82px rgb(157, 223, 208),
+    0 0 92px rgb(65, 61, 104),
+    0 0 102px rgb(79, 65, 105),
+    0 0 151px rgb(46, 98, 196);
+}
+
+#bubble p {
+    color: #fff;
+    text-align: center;
 }
