@@ -411,7 +411,7 @@ footer {
     
     #club-center {
         width: 65%;
-        height: px;
+        height: 900px;
         margin: 0 auto;
     }
     #club-left, #club-right {
@@ -448,12 +448,30 @@ footer {
         margin-left: 30px;
         margin-top: 15px;
     }
+    
+    #comet-zoom {
+       height: 570px;
+       position: relative;
+    }
+
    
 }
 
+/*medium to small screens*/
 @media screen and (max-width: 1095px ){
    #comet-image {
     background-size: 100%;
-
    }
-}
+
+   
+   /*small screen footer*/
+ }
+ @media screen and (max-width: 550px ){
+    footer {
+        
+    }
+    #social > li {
+        padding: 3%;
+    }
+
+ }
