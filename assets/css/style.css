@@ -431,3 +431,11 @@ footer {
         margin: 10px auto;
         position: relative;
     }
+
+    /*footer*/
+   #social a {
+    margin: 10px auto;
+    position: relative;
+
+   }
+}
