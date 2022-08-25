@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Libre Bodoni', sans-serif;
-     /* background-color: rgb(255, 255, 255);   */
+     /* background-color: rgb(0, 0, 0);   */
     
 }
 
@@ -188,6 +188,7 @@ font-size: 140%;
 footer {
     height: 80px;
     position: relative;
+    
 }
 
 #social {
@@ -257,9 +258,10 @@ footer {
 }
 
 #signup-image {
-    background: url(../images/signup.jpg);
+    background: url(../images/signup.jpg) no-repeat;
     height: 1200px;
     background-size: cover;
+    
   
     
 
@@ -438,6 +440,47 @@ footer {
     position: relative;
 
    }
+   /* gallery*/
+   .description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    
+   }
+
+   #signup-form {
+    left: 30px;
+    top: 200px;
+    
+   }
+
+   #bubble {
+    bottom: 100px;
+   }
+
+   /* #signup-image {
+    position: static;
+   }
+
+   #bubble, #bubble_2, #bubble_3 {
+    position: absolute;
+    right: 60px;
+    
+   }
+
+   #bubble {
+    top: 10px;
+   }
+
+   #bubble_2 {
+    top: 380px;
+   }
+
+   #bubble_3 {
+    top: 780px;
+   } */
+
 }
 
 /* smaller screens*/
@@ -454,24 +497,133 @@ footer {
        position: relative;
     }
 
-   
+   #images {
+    column-count: 2;
+    padding: 0;
+    
+   }
 }
+
+
 
 /*medium to small screens*/
 @media screen and (max-width: 1095px ){
-   #comet-image {
-    background-size: 100%;
-   }
-
    
-   /*small screen footer*/
+    #comet-image {
+    background-size: 100%;
+    }
+   }
+   
+   
+ 
+/* bubbles when screens are smaller than 1500*/
+ @media screen and (max-width: 1500px ){
+    #bubble, #bubble_2, #bubble_3 {
+        border-radius: 0;
+        left: 30px;
+        border-radius: 7px;
+        
+        
+    }
+
+    #bubble {
+        top: 700px;
+    }
+
+    #bubble_2 {
+        top: 1100px;
+    }
+
+    #bubble_3 {
+        top: 1530px;
+    }
+    #signup-form {
+        float: left;
+    }
+
+    #signup-image {
+        
+    }
+
+   #signup-image {
+    height: 2000px;
+    background-size: 100%;
+    
+   }
  }
+
  @media screen and (max-width: 550px ){
     footer {
         
-    }
-    #social > li {
-        padding: 3%;
-    }
+}
+ #social > li {
+    padding: 3%;
+    
+} 
+
+#signup-form {
+    width: 70%;
+    height: 55%;
+    
+}
+
+#bubble, #bubble_2, #bubble_3 {
+    width: 70%;
+    position: absolute;
+}
+#bubble {
+    top: 800px;
+}
+
+#bubble_2  {
+    top: 1200px;
+}
+
+#bubble_3 {
+    top: 1630px;
+}
+
+#signup-image {
+    height: 2200px;
+}
+
+.apply-button {
+    margin-left: 5px;
+    margin-top: 10px;
+}
 
  }
+ 
+
+ /* bubble package under 510*/
+ @media screen and (max-width: 550px ){
+    #bubble_2 {
+        height: 45%;
+    }
+    #bubble_3 {
+        top: 1700px;
+        height: 45%;
+    }
+
+    #bubble {
+        height: 34%;
+    }
+ }
+
+ /* nav screens smaller than 390*/
+ @media screen and (max-width: 390px ) {
+   
+    #menu li {
+     margin-right: 20px;
+     }
+
+     #social li {
+        padding: 1%;
+     }
+ }
+
+
+
+ 
+ 
+    
