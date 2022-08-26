@@ -7,8 +7,7 @@
 }
 
 body {
-    font-family: 'Libre Bodoni', sans-serif;
-     /* background-color: rgb(0, 0, 0);   */
+    font-family: 'Libre Bodoni', sans-serif; 
     
 }
 
@@ -16,8 +15,7 @@ body {
 /* logo and header*/
 
 h1 {
-    font-family: Aboreto, sans-serif;
-    
+    font-family: Aboreto, sans-serif;   
 }
 
 #logo {
@@ -69,9 +67,13 @@ font-size: 140%;
 
 #menu a:hover {
     border-style: dotted none;
+    color: rgb(114, 0, 245); 
+}
+
+.active {
+    border-style: dotted none;
     color: rgb(114, 0, 245);
-    
-    
+
 }
 
 /* background-image*/
@@ -188,7 +190,8 @@ font-size: 140%;
 footer {
     height: 80px;
     position: relative;
-    
+    background-color: rgb(0, 187, 194); 
+    top: 40px;
 }
 
 #social {
@@ -199,7 +202,7 @@ footer {
     display: inline;
     padding: 7%;
     font-size: 110%;
-      
+        
 }
 
 #social i {
@@ -226,7 +229,8 @@ footer {
     0 0 102px rgb(79, 65, 105),
     0 0 151px rgb(46, 98, 196);
     position: absolute;
-    margin-top: 30px;
+    top: 30px;
+    text-align: center;
     
 }
 
@@ -448,6 +452,7 @@ footer {
     margin: 10px auto;
     position: relative;
 
+
    }
    /* gallery*/
    .description {
@@ -584,7 +589,7 @@ footer {
 }
 #bubble_3 {
     top: 1700px;
-    height: 45%;
+    height: 46%;
 }
 
 #bubble {
@@ -596,7 +601,6 @@ footer {
     padding-left: 30px;
     width: 100%;
 }
-
  }
 
  /* nav screens smaller than 390*/
