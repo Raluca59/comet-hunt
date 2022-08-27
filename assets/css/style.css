@@ -255,6 +255,8 @@ footer {
     padding: 10px;
     font-size: 120%;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #last_pic {
@@ -273,6 +275,11 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
 }
+
+#gallery-body, #signup-body {
+    background-color: black;
+}
+
 
 #signup-image {
     background: url(../images/signup.jpg) no-repeat;
