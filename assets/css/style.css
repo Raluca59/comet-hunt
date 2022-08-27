@@ -256,6 +256,11 @@ footer {
     font-size: 120%;
     text-align: center;
 }
+
+#last_pic {
+    padding-bottom: 40px;
+}
+
 #images img:hover {
     border: 3px dotted rgb(43, 220, 226);
     box-sizing: border-box;
@@ -473,6 +478,10 @@ footer {
     bottom: 100px;
    }
 
+   .description {
+    line-height: 20px;
+   }
+
 }
 
 /* bubbles when screens are smaller than 1500*/
@@ -612,6 +621,11 @@ footer {
 
      #social li {
         padding: 1%;
+     }
+
+     .description {
+        line-height: 20px;
+         
      }
  }
 
