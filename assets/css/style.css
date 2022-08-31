@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Libre Bodoni', sans-serif; 
-    
+    background-color: #fff;  
 }
 
 
@@ -32,14 +32,11 @@ h1 {
     0 0 92px rgb(65, 61, 104),
     0 0 102px rgb(79, 65, 105),
     0 0 151px rgb(46, 98, 196);
- 
 }
 
 /*navigation links*/
 #menu {
 font-size: 140%;
-
-
 }
 
 #menu li {
@@ -61,8 +58,6 @@ font-size: 140%;
 #menu a {
     text-decoration: none;
     color: black;
-    
-    
 }
 
 #menu a:hover {
@@ -73,38 +68,15 @@ font-size: 140%;
 .active {
     border-style: dotted none;
     color: rgb(114, 0, 245);
-
 }
 
 /* background-image*/
 #comet-image {
     height: 700px;
     width: 100%;
-    background: url(../images/593191.jpg) no-repeat center center;
+    background: url(../images/593191.webp) no-repeat center center;
 }
-/* #comet-zoom {
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-} */
 
-#undertext {
-    position: absolute;
-    font-size: 120%;
-    top: 8%;
-    left: 25px;
-    color: rgb(14, 14, 13);
-    text-shadow:
-    0 0 7px rgb(17, 17, 17),
-    0 0 10px rgb(139, 112, 182),
-    0 0 21px #fff,
-    0 0 42px rgb(253, 253, 253),
-    0 0 82px rgb(71, 68, 102),
-    0 0 92px rgb(65, 61, 104),
-    0 0 102px rgb(233, 229, 240),
-    0 0 151px rgb(99, 87, 133);
-    
-}
 
 /*section club*/
  #cosmos-club {
@@ -121,8 +93,6 @@ font-size: 140%;
    opacity: 0.7;
    position: relative;
    width: 70%;
-    
-    
 }
 
 .explore-round {
@@ -139,7 +109,6 @@ font-size: 140%;
     width: 20%;
     float: left;
     margin-left: 150px;
-    
 }
 
 #club-right {
@@ -148,7 +117,8 @@ font-size: 140%;
     float: right;
     margin-right: 150px;
 }
-   #club-center {
+   
+#club-center {
     width: 33%;
     margin: 0 auto;
 } 
@@ -156,7 +126,6 @@ font-size: 140%;
 .club-left-h  {
     margin-bottom: 50px;
     font-size: 100%;
-    
 }
 
 .paragraph-left {
@@ -191,7 +160,7 @@ footer {
     height: 80px;
     position: relative;
     background-color: rgb(0, 187, 194); 
-    top: 40px;
+
 }
 
 #social {
@@ -202,7 +171,6 @@ footer {
     display: inline;
     padding: 7%;
     font-size: 110%;
-        
 }
 
 #social i {
@@ -213,7 +181,6 @@ footer {
     color: rgb(85, 1, 219);
     opacity: 0.7;
     border-style: dotted none;
-
 }
 
 #social a {
@@ -231,7 +198,6 @@ footer {
     position: absolute;
     top: 30px;
     text-align: center;
-    
 }
 
 /* gallery */
@@ -242,8 +208,8 @@ footer {
     column-count: 4;
     padding-left: 80px;
     background-color: black;
-
 }
+
 #images img {
      width: 100%;
      height: 80%;
@@ -266,7 +232,6 @@ footer {
 #images img:hover {
     border: 3px dotted rgb(43, 220, 226);
     box-sizing: border-box;
-    
 }
 
 .gallery {
@@ -282,14 +247,10 @@ footer {
 
 
 #signup-image {
-    background: url(../images/signup.jpg) no-repeat;
+    background: url(../images/signup.webp) no-repeat;
     height: 1200px;
     background-size: cover;
     background-color: black;
-    
-  
-    
-
 }
 
 
@@ -303,8 +264,8 @@ footer {
     left: 300px;
     padding: 30px;
     border-radius: 7px;
-    
 }
+
 .input-box {
     height: 25px;
     width: 100%;
@@ -328,6 +289,7 @@ footer {
     0 0 102px rgb(79, 65, 105),
     0 0 151px rgb(46, 98, 196);
 }
+
 .label{
     font-size: 120%;
     color: rgb(252, 252, 252);
@@ -355,11 +317,10 @@ footer {
     font-size: 120%;
     border: 2px solid rgb(13, 223, 212);
     font-weight: bold;
-    
 }
+
 .apply-button:hover {
    background-color: rgb(11, 247, 255);
-   
 }
 
 /* bubbles right side of signup*/
@@ -375,7 +336,8 @@ footer {
     float: right;
     border-radius: 50%;
 }
-#start-package {
+
+.start-package {
     text-align: center;
     text-shadow:
     0 0 7px #fff,
@@ -392,6 +354,7 @@ footer {
     color: #fff;
     text-align: center;
 }
+
 #bubble_2 {
     background-color: rgb(44, 51, 53);
     height: 330px;
@@ -404,10 +367,12 @@ footer {
     float: right;
     border-radius: 50%;
 }
+
 #bubble_2 p {
     color: #fff;
     text-align: center;
 }
+
 #bubble_3 {
     background-color: rgb(44, 51, 53);
     height: 350px;
@@ -420,11 +385,15 @@ footer {
     float: right;
     border-radius: 50%;
 }
+
 #bubble_3 p {
     color: #fff;
     text-align: center;
 }
 
+#footer-gallery {
+    margin-top: 60px;
+}
 /*media-queries*/
 
 /*large to medium screens*/
@@ -438,15 +407,17 @@ footer {
     
     #club-center {
         width: 65%;
-        height: 900px;
+        height: 240px;
         margin: 0 auto;
     }
+
     #club-left, #club-right {
         width: 100%;
         float: left;
         padding: 0;
         margin: 0 auto;
     }
+
     #club-center {
         clear: both;
         width: 70%;
@@ -463,32 +434,27 @@ footer {
    #social a {
     margin: 10px auto;
     position: relative;
-
-
-   }
+}
    /* gallery*/
    .description {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
     padding: 0px;
-    
-   }
+}
 
    #signup-form {
     left: 30px;
     top: 200px;
-    
-   }
+}
 
    #bubble {
     bottom: 100px;
-   }
+}
 
    .description {
     line-height: 20px;
-   }
-
+}
 }
 
 /* bubbles when screens are smaller than 1500*/
@@ -510,6 +476,7 @@ footer {
     #bubble_3 {
         top: 1530px;
     }
+
     #signup-form {
         float: left;
     }
@@ -518,8 +485,12 @@ footer {
    #signup-image {
     height: 2000px;
     background-size: 100%;
-    
-   }
+}
+
+#club-center {
+    height: 240px;
+}
+
  }
 
 
@@ -527,6 +498,10 @@ footer {
  @media screen and (max-width: 1300px ){
     #images {
         column-count: 2;
+    }
+
+    #club-center {
+        height: 270px;
     }
 }
 
@@ -558,6 +533,7 @@ footer {
         column-count: 1;
     }
 }
+
 
  @media screen and (max-width: 550px ){
  #social > li {
@@ -596,13 +572,13 @@ footer {
 }
 
 #cosmos-club {
-    height: 1200px;
-    
+    height: 900px;
 }
 
 #bubble_2 {
     height: 45%;
 }
+
 #bubble_3 {
     top: 1700px;
     height: 46%;
@@ -617,8 +593,41 @@ footer {
     padding-left: 30px;
     width: 100%;
 }
+
  }
 
+ 
+ @media screen and (max-width: 505px ){
+    footer {
+        margin-top: 40%;
+ }
+ }
+
+ @media screen and (max-width: 420px ){
+    footer {
+        margin-top: 70%;
+ }
+ }
+
+ @media screen and (max-width: 375px ){
+    footer {
+        margin-top: 120%;
+ }
+
+ #bubble {
+    height: 39%;
+ }
+
+ #bubble_2 {
+    height: 50%;
+    top: 1250px;
+ }
+
+ #bubble_3 {
+    height: 60%;
+    top: 1800px;
+ }
+ }
  /* nav screens smaller than 390*/
  @media screen and (max-width: 390px ) {
    
@@ -632,9 +641,51 @@ footer {
 
      .description {
         line-height: 20px;
-         
-     }
+    }
+
  }
+
+ @media screen and (max-width: 340px ){
+    footer {
+        margin-top: 160%;
+ }
+ }
+
+ 
+@media screen and (max-width:325px) {
+    #menu {
+        margin-left: 20px;
+    }
+
+     footer {
+        margin-top: 160%;
+        
+    }
+
+    #footer-gallery {
+        margin-top: 40px;
+    } 
+
+    #social > li {
+        padding: 0; 
+        
+} 
+
+#bubble {
+    height: 40%;
+}
+
+#bubble_2 {
+    height: 55%;
+    top: 1270px;
+}
+
+#bubble_3 {
+    top: 1880px;
+    height: 55%;
+}
+
+}
 
 
 
