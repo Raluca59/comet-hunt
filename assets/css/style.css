@@ -542,7 +542,7 @@ footer {
 
 #signup-form {
     width: 70%;
-    height: 55%;
+    height: 500px;
 }
 
 #bubble, #bubble_2, #bubble_3 {
@@ -576,16 +576,16 @@ footer {
 }
 
 #bubble_2 {
-    height: 45%;
+    height: 500px;
 }
 
 #bubble_3 {
     top: 1700px;
-    height: 46%;
+    height: 500px;
 }
 
 #bubble {
-    height: 34%;
+    height: 400px;
 }
 
 /*images gallery */
@@ -614,17 +614,11 @@ footer {
         margin-top: 120%;
  }
 
- #bubble {
-    height: 39%;
- }
-
  #bubble_2 {
-    height: 50%;
     top: 1250px;
  }
 
  #bubble_3 {
-    height: 60%;
     top: 1800px;
  }
  }
@@ -671,18 +665,12 @@ footer {
         
 } 
 
-#bubble {
-    height: 40%;
-}
-
 #bubble_2 {
-    height: 55%;
     top: 1270px;
 }
 
 #bubble_3 {
     top: 1880px;
-    height: 55%;
 }
 
 }
