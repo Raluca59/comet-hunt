@@ -4,7 +4,7 @@ Comet Hunters is a site for those who wish to explore the cosmos as close as pos
 
 Those who wish to sign up can choose from three different premade packages. The differences in the packages lies in the number of locations you get to visit and what resources will be at your disposal throughout the journey. They, of course, also differ in price range because of this, and having three different packages will ensure that most people will be able to find a package that matches their level of interest and capital.
 
---responsive design picture--
+![The site seen on different screen sizes](assets/images/readme1.png)
 
 ## Features
 
@@ -13,43 +13,43 @@ Those who wish to sign up can choose from three different premade packages. The 
   - It appears on all pages and remains the same regardless of which page the user is on, which makes navigation easy and prevents the user from getting lost.
   - Removes the need to use the browser's built-in "back" and "forward" buttons.
 
-    --nav bar pic--
+![The navigation bar](assets/images/navbar.png)
 
 * The Landing Page Image
   - A static but eye-catching image that immediately tells the user what the theme of this site is. 
 
-    --landing page pic--
+![The Landing Page Image](assets/images/startimage.png)
 
 * The Cosmos Club Section
   - The main part of the landing page where the user will be informed about what, exactly, the Cosmos Club does. 
   - Brings the users attention to the many benefits and amazing experiences that comes with signing up in four short, and easy to read, paragraphs. 
   - Spurs the users interest by giving examples of travel destinations and some perks that are available without revealing everything.
 
-  --cosmos club pic--
+![The main section of the landing page](assets/images/clubcenter.png)
 
 * Footer
   - Contains links to all of the social media sites that the Cosmos Club has.
   - Just like the navigation bar it remains the same throughout the entire site, is fully responsive and is present on all pages.
   - Encourages the user to engage with the Cosmos Club, as well as seek more information, in a multitude of ways.
 
-  --footer pic--
+![The footer](assets/images/footer.png)
 
 * Gallery
   - Shows pictures from earlier trips around the globe and contributes to giving the user a clear idea of what to expect.
   - The gallery is fully responsive and adjusts its presentation by limiting the number of rows it has based on the users screen size.
   - Every picture has a description beneath it that tells the user where the picture was taken.
 
-  --gallery pic--
+![The top row of the gallery](assets/images/gallery.png)
 
 * The Sign Up Page
   - Lets the user sign up and get in contact with the Cosmos Club by providing some basic personal information.
   - Presents three options to the user in three easy to read bubbles (or boxes depending on screen size).
   - Both the form and the information bubbles are responsive and adapts to the users screen size.
 
-  --sign up page pic--
+![The sign up page](assets/images/signup.png)
 
 ### Features left to implement
-* New features
+* A hamburger menu in the nav bar that when clicked opens up a more detailed "About us" section.
 
 ## Testing
 
@@ -59,26 +59,22 @@ Those who wish to sign up can choose from three different premade packages. The 
 * I have tested all of the links and can confirm that they are working as intended (external links opening in new tabs etc.).
 * I can confirm that the form is working as intended: it lets the user know what information is required, the email input only accepts a valid email format, the submit button works as intended and the correct information is sent to the server.
 
-### Bugs
-
-* Major or odd bugs?
-
 ### Validator Testing
 
 * HTML
-  - No errors were returned when passing through the official 
+  - No errors were returned when passing through the official [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fraluca59.github.io%2Fcomet-hunt%2Fsignup.html).
 
 * CSS
-  - No errors were returned when passing through the official
+  - No errors were returned when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fraluca59.github.io%2Fcomet-hunt%2Fsignup.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 * Lighthouse
   - I used Lighthouse in devtools to confirm that the accessibility and performance of the site is at an acceptable level.
 
-  --lighthouse pic--
+![The site's Lighthouse scores](assets/images/lighthouse.png)
 
 ### Unfixed bugs
 
-* Any unfixed bugs?
+* There are no unfixed bugs.
 
 ## Deployment
 
@@ -100,5 +96,6 @@ Those who wish to sign up can choose from three different premade packages. The 
 
 ### Media
 
-* The images are taken from?
+* The images, except the landing page image, are taken from [Pexels](pexels.com).
+* The Landing page image is taken from [Alphacoders](https://wall.alphacoders.com/tag/comet-wallpapers).
 
